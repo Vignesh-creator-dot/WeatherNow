@@ -1,0 +1,84 @@
+
+.SearchBox {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 35px;
+  text-align: center;
+}
+
+.SearchBox h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #334155;
+  margin: 0 0 22px;
+}
+
+.SearchBox form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.SearchBox .MuiTextField-root {
+  width: 100%;
+  max-width: 340px;
+  background: white;
+  border-radius: 10px;
+}
+
+.SearchBox .MuiOutlinedInput-root {
+  border-radius: 10px;
+}
+
+.SearchBox .MuiButton-root {
+  min-width: 135px;
+  min-height: 46px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: none;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.SearchBox .MuiButton-root:hover {
+  transform: translateY(-2px);
+}
+
+.loading-message {
+  text-align: center;
+  margin-top: 15px;
+  color: #475569;
+}
+
+.error-message {
+  color: #dc2626;
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 480px) {
+  .SearchBox h3 {
+    font-size: 19px;
+  }
+
+  .SearchBox .MuiTextField-root {
+    max-width: 100%;
+  }
+}
+
+
+
+.location-button {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.SearchBox .location-button .MuiButton-root {
+  min-height: 44px;
+  border-radius: 10px;
+  text-transform: none;
+  font-weight: 600;
+}

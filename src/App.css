@@ -1,0 +1,63 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #eef4ff, #f8fafc);
+  color: #1e293b;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  padding: 35px 20px;
+}
+
+.WeatherApp {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.WeatherApp h1 {
+  text-align: center;
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 700;
+  color: #172554;
+  margin: 0 0 35px;
+  letter-spacing: -1px;
+}
+
+@media (max-width: 480px) {
+  #root {
+    padding: 25px 12px;
+  }
+
+  .WeatherApp h1 {
+    margin-bottom: 28px;
+  }
+}
+
+.app-title {
+  text-align: center;
+  font-size: clamp(30px, 5vw, 42px);
+  font-weight: 700;
+  color: #172554;
+  margin-bottom: 8px;
+}
+
+.app-tagline {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 1.2px;
+  color: #64748b;
+  margin: 0 0 30px;
+}

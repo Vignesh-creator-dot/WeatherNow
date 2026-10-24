@@ -1,0 +1,71 @@
+
+.WeatherSuggestion {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 30px;
+  padding: 22px 24px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.07);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.WeatherSuggestion:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.11);
+}
+
+.WeatherSuggestion h2 {
+  margin: 0 0 16px;
+  color: #172554;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.WeatherSuggestion p {
+  margin: 10px 0;
+  color: #475569;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.WeatherSuggestion ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.WeatherSuggestion li {
+  margin: 10px 0;
+  padding-left: 3px;
+  color: #334155;
+  line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+  .WeatherSuggestion {
+    padding: 20px 16px;
+    margin-bottom: 22px;
+    border-radius: 16px;
+  }
+
+  .WeatherSuggestion h2 {
+    font-size: 19px;
+  }
+
+  .WeatherSuggestion p,
+  .WeatherSuggestion li {
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .WeatherSuggestion {
+    transition: none;
+  }
+
+  .WeatherSuggestion:hover {
+    transform: none;
+  }
+}
