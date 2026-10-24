@@ -1,16 +1,62 @@
-# React + Vite
+# 🌤️ WeatherNow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive weather application built using React, Vite, Material UI (MUI), and the OpenWeather API. WeatherNow helps users check current weather conditions for different cities through a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search weather by city name
+- Get weather using current location
+- View temperature, feels-like temperature, humidity, and weather conditions
+- View minimum and maximum temperatures
+- Get weather-based suggestions
+- Loading indicator and error handling
+- Responsive UI
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js
+- **Build Tool:** Vite
+- **UI Library:** Material UI (MUI)
+- **Styling:** CSS
+- **Programming Language:** JavaScript
+- **Weather Data:** OpenWeather API
+- **Location:** Browser Geolocation API
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Vignesh-creator-dot/WeatherNow.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd WeatherNow
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the application
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to use WeatherNow.
+
+## 🌐 API
+
+WeatherNow uses the OpenWeather API to retrieve weather information. An active API key is required for weather requests and must be configured in the application.
+
+## 👨‍💻 Author
+
+**K. Vignesh Rathod**
+
+GitHub: [Vignesh-creator-dot](https://github.com/Vignesh-creator-dot)
+
