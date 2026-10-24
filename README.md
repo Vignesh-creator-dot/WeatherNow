@@ -14,13 +14,15 @@ A responsive weather application built using React, Vite, Material UI (MUI), and
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js
-- **Build Tool:** Vite
-- **UI Library:** Material UI (MUI)
-- **Styling:** CSS
-- **Programming Language:** JavaScript
-- **Weather Data:** OpenWeather API
-- **Location:** Browser Geolocation API
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Material UI (MUI)
+- Vite
+- OpenWeather API
 
 ## 🚀 Getting Started
 
