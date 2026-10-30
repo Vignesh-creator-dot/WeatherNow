@@ -12,7 +12,6 @@ A responsive weather application built using React, Vite, Material UI (MUI), and
 - Loading indicator and error handling
 - Responsive UI
 
-## 🛠️ Tech Stack
 
 ## 🛠️ Tech Stack
 
